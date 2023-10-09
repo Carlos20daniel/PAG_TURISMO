@@ -6,9 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <button type="button" class="btn">Inicio</button>
-    <button type="button" class="btn">Servicios</button>
-    <button type="button" class="btn">Paquetes Turisticos</button>
-    <button type="button" class="btn">Contacto</button>     
+    <button type="button" class="btn"><a href="/">Inicio</a></button>
+    <button type="button" class="btn"><a href="/servicio">Servicios</button>
+    <button type="button" class="btn"><a href="/paquete">Paquetes Turisticos</button>
+    <button type="button" class="btn"><a href="/contacto">Contacto</button>     
 </body>
 </html>
