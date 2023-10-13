@@ -94,15 +94,15 @@
         .btn-1:hover{
             background-color: #ebad8d;
         }
-        .coffe{
+        .turismo{
             padding: 100px 0;
             background-color: #E1E2E6;
             position: relative;
         }
-        .coffe-content{
+        .turismo-content{
             text-align: center
         }
-        .coffe-content h2{
+        .turismo-content h2{
             font-size: 55px;
             line-height: 70px;
             color: #323337;
@@ -116,23 +116,23 @@
             padding: 0 250px;
             margin-bottom: 35px;
         }
-        .coffe-group{
+        .turismo-group{
             display: flex;
             justify-content: space-between;
             margin-bottom: 50px;
         }
-        .coffee-1{
+        .turismo-1{
             width: 0 200px;
         }
-        .coffee-1 img{
+        .turismo-1 img{
             width: 200px;
         }
-        .coffee-img{
+        .turismo-img{
             position: absolute;
             top: 0;
             right: 0;
         }
-        .coffee-1 h3{
+        .turismo-1 h3{
             color: #323337;
             font-size: 20px;
             margin-bottom: 15px;
@@ -177,21 +177,181 @@
             color: #EACCB3;
             font-size: 18px;
         }
+        .general{
+            display: flex;
+        }
+        .general-1{
+            width: 50px;
+            padding: 100px 250px 100px 100px;
+            background-color: #E1E2E6;
+        }
+        .general-2{
+            background-image: url(imagen/imgcentral.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 50%;
+        }
+        .general-3{
+            background-image: url(imagen/imgcentral.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 50%; 
+        }
+        h2{
+            font-size: 55px;
+            line-height: 70px;
+            color: #323337;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 16px;
+            color: #414247;
+            margin: 25px 0 45px 0;
+        }
+        .blog{
+            padding: 100px 0;
+            text-align: center;
+        }
+        .blog-content{
+            display: flex;
+            justify-content: space-between;
+        }
+        .blog-1{
+            padding: 15px 55px;
+        }
+        .blog-1 img{
+            width: 250px;
+            border-radius: 15px;
+            margin-bottom: 15px;
+        }
+        .blog-1 h3{
+            font-size: 25px;
+            color: #323337;
+        }
+        .footer{
+            padding: 100px 0;
+            background-color: #000000;
+        }
+        .footer-content{
+            display: flex;
+            justify-content: space-between;
+        }
+        .link h3{
+            font-size: 18px;
+            color: #F9FAFC;
+            margin-bottom: 15px;
+        }
+        .link a{
+            font-size: 16px;
+            color: #C5C5C5;
+            display: block;
+            margin-bottom: 15px;
+        }
+        @media(max-width:991px){
+            .menun{
+                padding: 30px;
+            }
+            .menu label{
+                display: initial;
+            }
+            .menu .navbar{
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: #323337;
+                display: none;
+            }
+            .menu .navbar ul li{
+                width: 100%;
+            }
+            #menu:checked - .navbar{
+                display: initial;
+            }
+            .header{
+                min-height: 0vh;
+            }
+            .header-content{
+                padding: 100px 30px;
+            }
+            .header-content p{
+                padding: 0%;
+            }
+            .turismo{
+                padding: 30px;
+            }
+            .turismo-content h2{
+                padding: 0;
+            }
+            .txt-p{
+                padding: 0;
+            }
+            .turismo-group{
+                flex-direction: column;
+                margin-bottom: 0;
+            }
+            .turismo-img{
+                display: none;
+            }
+            .services{
+                padding: 30px;
+            }
+            .services-content p{
+                padding: 0;
+            }
+            .services-group{
+                flex-direction: column;
+                margin-bottom: 0;
+            }
+            .services-1{
+                margin-bottom: 25px;
+            }
+            .general{
+                flex-direction: column;
+            }
+            .general-1{
+                width: 100%;
+                padding: 30px;
+                text-align: center;
+            }
+            .general-2, .general-3{
+                display: none;
+            }
+            .blog{
+                padding: 30px;
+            }
+            .blog-content{
+                flex-direction: column;
+            }
+            .blog-1{
+                padding: 0;
+            }
+            .footer{
+                padding: 30px;
+            }
+            .footer-content{
+                flex-direction: column;
+                text-align: center;
+            }
+        }
     </style>
     <body>
         <header class="header">
             <div class="menu container">
-                <a href="0">logo</a>
+                <a href="imagen/imghu.jpg">logo</a>
                 <input type="checkbox" id="menu"/>
                 <label for="menu">
-                    <img src="imghu.jpg" class="menu-icono" alt="">
+                    <img src="" class="menu-icono" alt="">
                 </label>
                 <nav class="navbar">
                     <ul>
-                        <li><a href="0"></a>Inicio</li>
-                        <li><a href="0"></a>Servicios</li>
-                        <li><a href="0"></a>Paquetes</li>
-                        <li><a href="0"></a>Contacto</li>
+                        <li><a href="0"></a>Inicio </li>
+                        <li><a href="0"></a> Servicios </li>
+                        <li><a href="0"></a> Paquetes </li>
+                        <li><a href="0"></a> Contacto</li>
                     </ul>
                 </nav>
             </div>
@@ -205,57 +365,57 @@
             </div>
         </header>
 
-        <section class="coffe">
+        <section class="turismo">
             <img src="img1.jpg" alt="">
-            <div class="coffe-content container">
-                <h2>los diferentes tipos de cafe</h2>
+            <div class="turismo-content container">
+                <h2>LUGARES TURISTICOS DE HUANUCO</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                    Nihil quam corporis ea accusantium totam quaerat cupiditate fugit tempore aut 
                    temporibus obcaecati nulla voluptatum et quasi sint dignissimos, veritatis natus animi.
                 </p>
-                <div class="coffee-group">
-                    <div class="coffee-1">
-                        <img src="img1.jpg" alt="">
+                <div class="turismo-group">
+                    <div class="turismo-1">
+                        <img src="imagen/tur1.jpg" alt="">
                         <h3>cafe lorem</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus animi,
                            dolore voluptatum consequatur quod corrupti, enim repellendus ipsam tempore
                            impedit quo, molestias deserunt commodi accusantium veritatis excepturi quae ducimus inventore?
                         </p>
                     </div>
-                    <div class="coffee-1">
-                        <img src="img1.jpg" alt="">
+                    <div class="turismo-1">
+                        <img src="imagen/tur2.jpg" alt="">
                         <h3>cafe lorem</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus animi,
                            dolore voluptatum consequatur quod corrupti, enim repellendus ipsam tempore
                            impedit quo, molestias deserunt commodi accusantium veritatis excepturi quae ducimus inventore?
                         </p>
                     </div>
-                    <div class="coffee-1">
-                        <img src="img1.jpg" alt="">
+                    <div class="turismo-1">
+                        <img src="imagen/tur3.jpg" alt="">
                         <h3>cafe lorem</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus animi,
                            dolore voluptatum consequatur quod corrupti, enim repellendus ipsam tempore
                            impedit quo, molestias deserunt commodi accusantium veritatis excepturi quae ducimus inventore?
                         </p>
                     </div>
-                    <div class="coffee-1">
-                        <img src="img1.jpg" alt="">
+                    <div class="turismo-1">
+                        <img src="imagen/tur4.jpg" alt="">
                         <h3>cafe lorem</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus animi,
                            dolore voluptatum consequatur quod corrupti, enim repellendus ipsam tempore
                            impedit quo, molestias deserunt commodi accusantium veritatis excepturi quae ducimus inventore?
                         </p>
                     </div>
-                    <div class="coffee-1">
-                        <img src="img1.jpg" alt="">
+                    <div class="turismo-1">
+                        <img src="imagen/tur5.jpg" alt="">
                         <h3>cafe lorem</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus animi,
                            dolore voluptatum consequatur quod corrupti, enim repellendus ipsam tempore
                            impedit quo, molestias deserunt commodi accusantium veritatis excepturi quae ducimus inventore?
                         </p>
                     </div>
-                    <div class="coffee-1">
-                        <img src="img1.jpg" alt="">
+                    <div class="turismo-1">
+                        <img src="imagen/tur6.jpg" alt="">
                         <h3>cafe lorem</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus animi,
                            dolore voluptatum consequatur quod corrupti, enim repellendus ipsam tempore
@@ -269,7 +429,7 @@
 
         <main class="services">
             <div class="services-content container">
-                <h2>Cafeteria servicios</h2>
+                <h2>Servicios Turisticos</h2>
                 <div class="services-group">
                     <div class="services-1">
                         <img src="img1.jpg" alt="">
