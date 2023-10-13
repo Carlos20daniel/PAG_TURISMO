@@ -22,7 +22,7 @@
             margin: 0 auto;
         }
         .header{
-            background-image: linear-gradient(rgba(0,0,0,0,7),rgba(0,0,0,0,7),url(views/imgcentral.jpg));
+            background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imagen/imgcentral.jpg);
             background-position: center bottom;
             background-repeat: no-repeat;
             background-size: cover;
@@ -55,11 +55,127 @@
             display: block;
             font-weight: 600;
         }
+        .menu .navbar ul li a:hover{
+            color: #CE967B;
+        }
         #menu{
             display: none;
         }
         .menu-icono{
             width: 25px;
+        }
+        .menu label{
+            cursor: pointer;
+            display: none;
+        }
+        .header-content{
+            text-align: center;
+        }
+        .header-content h1{
+            font-size: 75px;
+            line-height: 80px;
+            color: #F9FAFC;
+            text-transform: uppercase;
+            margin-bottom: 35px; 
+        }
+        .header-content p{
+            font-size: 16px;
+            color: #C5C5C5;
+            padding: 0 250px;
+            margin-bottom: 25px;
+        }
+        .btn-1 {
+            display: inline-block;
+            padding: 11px 35px;
+            background-color: #CE967B;
+            color:#F9FAFC;
+            text-transform: uppercase;
+        }
+        .btn-1:hover{
+            background-color: #ebad8d;
+        }
+        .coffe{
+            padding: 100px 0;
+            background-color: #E1E2E6;
+            position: relative;
+        }
+        .coffe-content{
+            text-align: center
+        }
+        .coffe-content h2{
+            font-size: 55px;
+            line-height: 70px;
+            color: #323337;
+            text-transform: uppercase;
+            padding: 0 250px;
+            margin-bottom: 15px;
+        }
+        .txt-p{
+            font-size: 16px;
+            color: #414247;
+            padding: 0 250px;
+            margin-bottom: 35px;
+        }
+        .coffe-group{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 50px;
+        }
+        .coffee-1{
+            width: 0 200px;
+        }
+        .coffee-1 img{
+            width: 200px;
+        }
+        .coffee-img{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .coffee-1 h3{
+            color: #323337;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        .services{
+            background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imagen/imgcentral.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            padding: 100px 0;
+        }
+        .services-content{
+            text-align: center;
+        }
+        .services-content h2{
+            font-size: 55px;
+            line-height: 70px;
+            color: #F9FAFC;
+            text-transform: uppercase;
+            margin-bottom: 50px;
+        }
+        .services-content p{
+            font-size: 16px;
+            color: #C5C5C5;
+            margin-bottom: 50px;
+            padding: 0 100px;
+        }
+        .services-group{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 50px;
+        }
+        .services-1{
+            padding: 0 100px;
+        }
+        .services-1 img{
+            width: 25px;
+            margin-bottom: 15px;
+        }
+        .services-1 h3{
+            color: #EACCB3;
+            font-size: 18px;
         }
     </style>
     <body>
@@ -72,10 +188,10 @@
                 </label>
                 <nav class="navbar">
                     <ul>
-                        <h1>INICIO</h1>
-                        <li><a href="0"></a>SERVICIO</li>
-                        <li><a href="0"></a>PAQUETES</li>
-                        <li><a href="0"></a>CONTACTO</li>
+                        <li><a href="0"></a>Inicio</li>
+                        <li><a href="0"></a>Servicios</li>
+                        <li><a href="0"></a>Paquetes</li>
+                        <li><a href="0"></a>Contacto</li>
                     </ul>
                 </nav>
             </div>
