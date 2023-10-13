@@ -16,3 +16,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/tur1', function () {
+    return view('tur1');
+});
+Route::get('/tur2', function () {
+    return view('tur2');
+});
+Route::get('/tur3', function () {
+    return view('tur3');
+});
+Route::get('/tur4', function () {
+    return view('tur4');
+});
+Route::get('/tur5', function () {
+    return view('tur5');
+});
+Route::get('/tur6', function () {
+    return view('tur6');
+});
