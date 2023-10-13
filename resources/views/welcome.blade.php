@@ -453,42 +453,42 @@
                     <h3>Puente Calicanto</h3>
                     <p>El Puente Calicanto está ubicado en la ciudad de Huánuco y cruza el río Huallaga.​ Su construcción comenzó en 1879 y culminó el 1884. Fue diseñado por Santos Benedetti, Silverio Lázzaro y Vitorio Albertini.​ Tiene una longitud de 60 m y dos columnas. Fue construido sobre la base de piedra de canto rodado junto con mezcla de cal, arena y claras de huevos
                     </p>
-                    <a href="0" class="btn-1">Informacion</a>
+                    <a href="tur1.blade.php" class="btn-1">Informacion</a>
                 </div>
                 <div class="turismo-1">
                     <img src="imagen/tur2.jpg" alt="">
                     <h3>Manos Cruzadas</h3>
                     <p>Kotosh es un sitio arqueológico ubicado en el distrito, provincia y departamento de Huánuco, en el Perú. Se compone de una serie de edificios superpuestos con 6 periodos de ocupación continua que datan desde el Arcaico Tardío hasta el Intermedio Temprano. El más famoso de sus recintos, que se encuentra expuesto actualmente al público, es el Templo de las Manos Cruzadas, llamado así por tener dos altorrelieves en barro en forma de sendos brazos cruzados, cuya antigüedad se remonta al 1800 a. C.
                     </p>
-                    <a href="0" class="btn-1">Informacion</a>
+                    <a href="tur2.blade.php" class="btn-1">Informacion</a>
                 </div>
                 <div class="turismo-1">
                     <img src="imagen/tur3.jpg" alt="">
                     <h3>Bella Durmiente</h3>
                     <p>Bella Durmiente es una montaña que adorna el horizonte de la ciudad de Tingo María, en Huánuco. Conoce la leyenda que se cuenta acerca de su origen.
                     </p>
-                    <a href="0" class="btn-1">Informacion</a>
+                    <a href="tur3.blade.php" class="btn-1">Informacion</a>
                 </div>
                 <div class="turismo-1">
                     <img src="imagen/tur4.jpg" alt="">
                     <h3>Casa de la Perricholi</h3>
                     <p>Hermosa casa de adobe construida sobre una cuesta empinada. Desde el punto más alto se logra una vista panorámica del pueblo de Tomayquichua. Se construyó en 1739 y en ella vivió Micaela Villegas Hurtado: mujer de encantadora belleza conocida como La Perricholi, quien se convirtió en la amante del virrey Amat y Juniet. En la actualidad, la casa tiene un pequeño guarda ropa en la habitación principal y muebles de la época, una réplica de la cocina, un carruaje reconstruido, vestidos de moda de la época.
                     </p>
-                    <a href="0" class="btn-1">Informacion</a>
+                    <a href="tur4.blade.php" class="btn-1">Informacion</a>
                 </div>
                 <div class="turismo-1">
                     <img src="imagen/tur5.jpg" alt="">
                     <h3>Lago Lauricocha</h3>
                     <p>Esta laguna se encuentra rodeada por las estribaciones orientales de la Cordillera Occidental Andina; a 25 km de distancia del pueblo de Cauri (a 131 km de la ciudad de Huánuco) pasando por los pueblos de Gashanpampa y Antacolpa. Tiene una altitud de 3845 m s. n. m. La forma que tiene es de una forma alargada que se distribuye de este a oeste, y cuenta con aproximadamente 7 km, de largo por 1.5 km en su parte más ancha, con 75 m de profundidad en promedio y 160,7 km² de área.
                     </p>
-                    <a href="0" class="btn-1">Informacion</a>
+                    <a href="tur5.blade.php" class="btn-1">Informacion</a>
                 </div>
                 <div class="turismo-1">
                     <img src="imagen/tur6.jpg" alt="">
                     <h3>Huanuco Pampa</h3>
                     <p>Conocido también como Huánuco Viejo. Importantísimo centro de más de 2 km² ubicado sobre una meseta o pampa de 200 ha de extensión a 3,700 metros de altura que se emplaza sobre el valle del Vizcarra. Fue establecido allí porque marcaba el punto medio del camino entre el Cuzco y Tomebamba, hoy en el sur de Ecuador. Desde entonces la ciudadela ha sido reconocida como "La Capital del Chinchaysuyo", una de las cuatro regiones en que estaba dividido políticamente el llamado Imperio de los Incas.Por esta población pasaba el Camino del Inca, en uno de sus ramales.
                     </p>
-                    <a href="0" class="btn-1">Informacion</a>
+                    <a href="tur6.blade.php" class="btn-1">Informacion</a>
                 </div>
             </div>
         </div>
