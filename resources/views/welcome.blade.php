@@ -5,10 +5,67 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAGINA TURISTICA</title>
     </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style: none;
+        }
+        body{
+            font-family: 'Poppins','sans-serif';
+        }
+        .container{
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header{
+            background-image: linear-gradient(rgba(0,0,0,0,7),rgba(0,0,0,0,7),url(views/imgcentral.jpg));
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+        }
+        .menu{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo{
+            color: #FFFDFC;
+            font-size: 25px;
+            font-weight: 800;
+        }
+        .menu .navbar ul li{
+            position: relative;
+            float: left;
+        }
+        .menu .navbar ul li a{
+            font-size: 18px;
+            padding: 20px;
+            color: #FFFDFC;
+            display: block;
+            font-weight: 600;
+        }
+        #menu{
+            display: none;
+        }
+        .menu-icono{
+            width: 25px;
+        }
+    </style>
     <body>
         <header class="header">
             <div class="menu container">
-                <a href="imghu.jpg">logo</a>
+                <a href="0">logo</a>
                 <input type="checkbox" id="menu"/>
                 <label for="menu">
                     <img src="imghu.jpg" class="menu-icono" alt="">
@@ -177,6 +234,15 @@
 
         <footer class="footer">
             <div class="footer-content conteiner">
+                <div class="link">
+                    <h3>lorem</h3>
+                    <ul>
+                        <li><a href="0">lorem</a></li>
+                        <li><a href="0">lorem</a></li>
+                        <li><a href="0">lorem</a></li>
+                        <li><a href="0">lorem</a></li>
+                    </ul>
+                </div>
                 <div class="link">
                     <h3>lorem</h3>
                     <ul>
